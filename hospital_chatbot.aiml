@@ -1,0 +1,679 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- hospital-chatbot.xml -->
+
+    <!-- Greeting -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you today?</template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! How can I help you?</template>
+    </category>
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template>Good morning! How can I assist you today?</template>
+    </category>
+    <category>
+        <pattern>GOOD AFTERNOON</pattern>
+        <template>Good afternoon! How can I help you?</template>
+    </category>
+    <category>
+        <pattern>GOOD EVENING</pattern>
+        <template>Good evening! How can I assist you today?</template>
+    </category>
+
+    <!-- General Information -->
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S VISITING HOURS</pattern>
+        <template>The visiting hours are from 9 AM to 9 PM every day.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I CONTACT THE HOSPITAL</pattern>
+        <template>You can contact the hospital at (555) 123-4567 or email us at contact@hospital.com.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL'S ADDRESS</pattern>
+        <template>The hospital is located at 123 Health St, Wellness City.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I GET TO THE HOSPITAL</pattern>
+        <template>You can get to the hospital by car, bus, or metro. Please visit our website for detailed directions.</template>
+    </category>
+    <category>
+        <pattern>IS THERE PARKING AVAILABLE AT THE HOSPITAL</pattern>
+        <template>Yes, we have ample parking space available for visitors and patients.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL HAVE A WEBSITE</pattern>
+        <template>Yes, you can visit our website at www.hospital.com for more information.</template>
+    </category>
+    <category>
+        <pattern>WHAT SERVICES DOES THE HOSPITAL OFFER</pattern>
+        <template>We offer a wide range of services including emergency care, surgery, maternity services, and more.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S SPECIALTIES</pattern>
+        <template>Our specialties include cardiology, orthopedics, neurology, oncology, and more.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I BOOK AN APPOINTMENT</pattern>
+        <template>You can book an appointment by calling (555) 123-4567 or visiting our website.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL OFFER EMERGENCY SERVICES</pattern>
+        <template>Yes, we have a 24-hour emergency department to handle all medical emergencies.</template>
+    </category>
+
+    <!-- Appointment Booking -->
+    <category>
+        <pattern>HOW DO I SCHEDULE AN APPOINTMENT</pattern>
+        <template>You can schedule an appointment by calling (555) 123-4567 or by visiting our website and using the appointment booking feature.</template>
+    </category>
+    <category>
+        <pattern>CAN I BOOK AN APPOINTMENT ONLINE</pattern>
+        <template>Yes, you can book an appointment online through our website.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE PROCESS FOR RESCHEDULING AN APPOINTMENT</pattern>
+        <template>To reschedule an appointment, please call (555) 123-4567 and our staff will assist you.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I CANCEL AN APPOINTMENT</pattern>
+        <template>You can cancel an appointment by calling (555) 123-4567 or using the online appointment system.</template>
+    </category>
+    <category>
+        <pattern>DO I NEED A REFERRAL TO SEE A SPECIALIST</pattern>
+        <template>Some specialists may require a referral. Please check with our appointment desk for more details.</template>
+    </category>
+    <category>
+        <pattern>WHAT INFORMATION DO I NEED TO BOOK AN APPOINTMENT</pattern>
+        <template>Please have your personal details, insurance information, and reason for the appointment ready when booking.</template>
+    </category>
+    <category>
+        <pattern>HOW EARLY SHOULD I ARRIVE FOR MY APPOINTMENT</pattern>
+        <template>We recommend arriving at least 15 minutes before your scheduled appointment time.</template>
+    </category>
+    <category>
+        <pattern>ARE WALK-IN APPOINTMENTS AVAILABLE</pattern>
+        <template>Yes, we do accept walk-in appointments, but availability may vary.</template>
+    </category>
+    <category>
+        <pattern>CAN I CHOOSE MY DOCTOR</pattern>
+        <template>Yes, you can choose your doctor based on availability and your preference.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I CONFIRM MY APPOINTMENT</pattern>
+        <template>You can confirm your appointment by calling (555) 123-4567 or checking the confirmation email.</template>
+    </category>
+
+    <!-- Billing and Insurance -->
+    <category>
+        <pattern>HOW DO I PAY MY BILL</pattern>
+        <template>You can pay your bill online, by mail, or in person at the billing office.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL ACCEPT INSURANCE</pattern>
+        <template>Yes, we accept most major insurance plans. Please check with your insurance provider or our billing department for more details.</template>
+    </category>
+    <category>
+        <pattern>WHAT INSURANCE PLANS ARE ACCEPTED</pattern>
+        <template>We accept a wide range of insurance plans. Please contact our billing office for a complete list.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I GET A COPY OF MY BILL</pattern>
+        <template>You can request a copy of your bill by contacting our billing department.</template>
+    </category>
+    <category>
+        <pattern>WHO DO I CONTACT ABOUT A BILLING ISSUE</pattern>
+        <template>Please contact our billing office at (555) 123-4567 for any billing issues.</template>
+    </category>
+    <category>
+        <pattern>ARE PAYMENT PLANS AVAILABLE</pattern>
+        <template>Yes, we offer payment plans. Please contact our billing office to discuss your options.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I FIND OUT IF MY INSURANCE COVERS A PROCEDURE</pattern>
+        <template>Please contact your insurance provider or our billing department to verify coverage for a specific procedure.</template>
+    </category>
+    <category>
+        <pattern>WHAT FORMS OF PAYMENT ARE ACCEPTED</pattern>
+        <template>We accept cash, credit/debit cards, and online payments.</template>
+    </category>
+    <category>
+        <pattern>CAN I PAY MY BILL ONLINE</pattern>
+        <template>Yes, you can pay your bill online through our website.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I APPLY FOR FINANCIAL ASSISTANCE</pattern>
+        <template>You can apply for financial assistance by contacting our billing office and filling out the necessary forms.</template>
+    </category>
+
+    <!-- Emergency Services -->
+    <category>
+        <pattern>WHAT SHOULD I DO IN CASE OF AN EMERGENCY</pattern>
+        <template>In case of an emergency, please call 911 or visit our emergency department immediately.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL HAVE A 24-HOUR EMERGENCY DEPARTMENT</pattern>
+        <template>Yes, our emergency department is open 24 hours a day, 7 days a week.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SIGNS OF A MEDICAL EMERGENCY</pattern>
+        <template>Signs of a medical emergency include severe chest pain, difficulty breathing, sudden confusion, uncontrolled bleeding, and more.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I GET EMERGENCY MEDICAL HELP</pattern>
+        <template>Call 911 or visit the nearest emergency department for immediate medical assistance.</template>
+    </category>
+    <category>
+        <pattern>CAN I CALL THE HOSPITAL FOR EMERGENCY ADVICE</pattern>
+        <template>In case of an emergency, please call 911. For non-emergency advice, you can contact our nurse hotline.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS THE EMERGENCY DEPARTMENT LOCATED</pattern>
+        <template>The emergency department is located on the ground floor of the hospital, accessible from the main entrance.</template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I BRING TO THE EMERGENCY ROOM</pattern>
+        <template>Please bring your ID, insurance information, and any medications you are currently taking.</template>
+    </category>
+    <category>
+        <pattern>HOW LONG IS THE WAIT TIME IN THE EMERGENCY DEPARTMENT</pattern>
+        <template>Wait times vary based on the severity of conditions and the number of patients. Our staff prioritizes patients based on medical need.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY URGENT CARE SERVICES</pattern>
+        <template>Yes, we offer urgent care services for non-life-threatening conditions. Please check our website for locations and hours.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I TRANSFER A PATIENT TO THE HOSPITAL IN AN EMERGENCY</pattern>
+        <template>Please call 911 to arrange for an ambulance transfer in an emergency.</template>
+    </category>
+
+    <!-- Medical Services -->
+    <category>
+        <pattern>WHAT TYPES OF SURGERIES ARE PERFORMED AT THE HOSPITAL</pattern>
+        <template>We perform a wide range of surgeries including general surgery, orthopedic surgery, cardiovascular surgery, and more.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL OFFER MATERNITY SERVICES</pattern>
+        <template>Yes, we offer comprehensive maternity services including prenatal care, delivery, and postpartum care.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE PEDIATRIC SERVICES AVAILABLE</pattern>
+        <template>Yes, we have a dedicated pediatric department that offers a wide range of services for children.</template>
+    </category>
+    <category>
+        <pattern>WHAT TYPES OF DIAGNOSTIC TESTS ARE AVAILABLE</pattern>
+        <template>We offer various diagnostic tests including blood tests, imaging (X-ray, MRI, CT), and more.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL HAVE A PHARMACY</pattern>
+        <template>Yes, we have an on-site pharmacy for your convenience.</template>
+    </category>
+    <category>
+        <pattern>WHAT REHABILITATION SERVICES ARE OFFERED</pattern>
+        <template>We offer physical therapy, occupational therapy, speech therapy, and more as part of our rehabilitation services.</template>
+    </category>
+    <category>
+        <pattern>ARE MENTAL HEALTH SERVICES AVAILABLE</pattern>
+        <template>Yes, we offer a range of mental health services including counseling, psychiatric care, and support groups.</template>
+    </category>
+    <category>
+        <pattern>DOES THE HOSPITAL OFFER CANCER TREATMENT</pattern>
+        <template>Yes, we have a comprehensive cancer treatment center offering chemotherapy, radiation therapy, and surgical options.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE SPECIALIZED CLINICS AT THE HOSPITAL</pattern>
+        <template>Yes, we have specialized clinics for cardiology, neurology, dermatology, and more.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I GET A SECOND OPINION</pattern>
+        <template>You can request a second opinion by contacting our appointment desk and scheduling a consultation with a different specialist.</template>
+    </category>
+
+    <!-- Patient Information -->
+    <category>
+        <pattern>HOW DO I CHECK ON A PATIENT'S CONDITION</pattern>
+        <template>You can check on a patient's condition by calling the hospital's main number and asking to be connected to the patient's room.</template>
+    </category>
+    <category>
+        <pattern>WHAT ITEMS SHOULD I BRING FOR MY HOSPITAL STAY</pattern>
+        <template>We recommend bringing personal items such as toiletries, comfortable clothing, and any medications you are currently taking.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE DISCHARGE PROCESS LIKE</pattern>
+        <template>The discharge process involves receiving instructions from your doctor, collecting your medications, and completing any necessary paperwork.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I REQUEST MY MEDICAL RECORDS</pattern>
+        <template>You can request your medical records by contacting our medical records department and filling out a request form.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL'S PRIVACY POLICY</pattern>
+        <template>Our privacy policy ensures the confidentiality of your medical information. Please visit our website for the full policy.</template>
+    </category>
+    <category>
+        <pattern>CAN FAMILY MEMBERS STAY OVERNIGHT</pattern>
+        <template>Yes, family members can stay overnight in certain situations. Please check with the nursing staff for details.</template>
+    </category>
+    <category>
+        <pattern>WHAT AMENITIES ARE AVAILABLE FOR PATIENTS</pattern>
+        <template>Amenities include Wi-Fi, TV, meal services, and more. Please ask the nursing staff for a complete list.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE SUPPORT GROUPS FOR PATIENTS</pattern>
+        <template>Yes, we offer various support groups for patients dealing with different conditions. Please ask your nurse or visit our website for more information.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I PROVIDE FEEDBACK ABOUT MY CARE</pattern>
+        <template>You can provide feedback by filling out a patient satisfaction survey or contacting our patient relations department.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE PROCESS FOR TRANSFERRING TO ANOTHER FACILITY</pattern>
+        <template>Your doctor will coordinate the transfer process, including arranging transportation and providing necessary medical records.</template>
+    </category>
+
+    <!-- Visitor Information -->
+    <category>
+        <pattern>WHAT ARE THE VISITING HOURS FOR EACH DEPARTMENT</pattern>
+        <template>Visiting hours vary by department. Please check with the specific department for their visiting hours.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE RESTRICTIONS ON THE NUMBER OF VISITORS</pattern>
+        <template>Yes, there are some restrictions on the number of visitors based on the patient's condition and hospital policies. Please check with the nursing staff.</template>
+    </category>
+    <category>
+        <pattern>CAN CHILDREN VISIT PATIENTS</pattern>
+        <template>Yes, children can visit patients, but they must be accompanied by an adult and follow hospital guidelines.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE WAITING AREAS FOR VISITORS</pattern>
+        <template>Yes, we have comfortable waiting areas for visitors. Please ask the front desk for directions.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S RULES FOR VISITORS</pattern>
+        <template>Visitors must follow the hospital's rules, including visiting hours, hygiene practices, and respecting patient privacy.</template>
+    </category>
+    <category>
+        <pattern>IS THERE A CAFETERIA OR FOOD SERVICE FOR VISITORS</pattern>
+        <template>Yes, we have a cafeteria and several food service options available for visitors.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ACCOMMODATIONS FOR OUT-OF-TOWN VISITORS</pattern>
+        <template>Yes, we have partnered with nearby hotels to provide accommodations for out-of-town visitors. Please ask the front desk for more information.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE GUIDELINES FOR BRINGING GIFTS TO PATIENTS</pattern>
+        <template>Please check with the nursing staff before bringing gifts to ensure they are appropriate and permitted.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I CONTACT A PATIENT</pattern>
+        <template>You can contact a patient by calling the hospital's main number and asking to be connected to their room.</template>
+    </category>
+    <category>
+        <pattern>ARE PETS ALLOWED IN THE HOSPITAL</pattern>
+        <template>Pets are generally not allowed in the hospital, except for service animals. Please check with the nursing staff for specific policies.</template>
+    </category>
+
+    <!-- COVID-19 Specific -->
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S COVID-19 PROTOCOLS</pattern>
+        <template>Our COVID-19 protocols include mandatory masks, social distancing, and regular sanitization. Please visit our website for the latest updates.</template>
+    </category>
+    <category>
+        <pattern>CAN I VISIT A PATIENT WHO HAS COVID-19</pattern>
+        <template>Due to safety concerns, visitors are currently not allowed for COVID-19 patients. Please use virtual means to stay in touch.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I GET TESTED FOR COVID-19</pattern>
+        <template>You can get tested for COVID-19 by visiting our testing center or scheduling an appointment through our website.</template>
+    </category>
+    <category>
+        <pattern>IS THE COVID-19 VACCINE AVAILABLE AT THE HOSPITAL</pattern>
+        <template>Yes, we offer COVID-19 vaccinations. Please visit our website or contact our vaccination center to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I DO IF I HAVE COVID-19 SYMPTOMS</pattern>
+        <template>If you have COVID-19 symptoms, please self-isolate and contact our COVID-19 hotline for further instructions.</template>
+    </category>
+    <category>
+        <pattern>ARE TELEHEALTH SERVICES AVAILABLE FOR COVID-19 PATIENTS</pattern>
+        <template>Yes, we offer telehealth services for COVID-19 patients. Please schedule an appointment through our website.</template>
+    </category>
+    <category>
+        <pattern>WHAT SAFETY MEASURES ARE IN PLACE FOR NON-COVID-19 PATIENTS</pattern>
+        <template>We have strict safety measures in place, including separate areas for COVID-19 patients, enhanced cleaning protocols, and PPE for staff.</template>
+    </category>
+    <category>
+        <pattern>CAN I GET A COVID-19 TEST BEFORE SURGERY</pattern>
+        <template>Yes, all patients undergoing surgery are required to get a COVID-19 test. Please contact your doctor for more details.</template>
+    </category>
+    <category>
+        <pattern>HOW ARE COVID-19 TEST RESULTS PROVIDED</pattern>
+        <template>COVID-19 test results are typically provided within 24-48 hours via phone or email.</template>
+    </category>
+    <category>
+        <pattern>IS THE HOSPITAL CONDUCTING COVID-19 RESEARCH</pattern>
+        <template>Yes, our hospital is involved in several COVID-19 research projects. Please visit our website for more information.</template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I DO IF I TEST POSITIVE FOR COVID-19</pattern>
+        <template>If you test positive for COVID-19, please follow self-isolation guidelines and contact our COVID-19 hotline for further instructions.</template>
+    </category>
+    <category>
+        <pattern>CAN I GET A COVID-19 ANTIBODY TEST</pattern>
+        <template>Yes, we offer COVID-19 antibody tests. Please schedule an appointment through our website.</template>
+    </category>
+    <category>
+        <pattern>ARE VISITORS ALLOWED IN THE HOSPITAL DURING THE PANDEMIC</pattern>
+        <template>Visitor policies may vary depending on current health guidelines. Please check our website for the latest updates.</template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I BRING TO MY COVID-19 TESTING APPOINTMENT</pattern>
+        <template>Please bring your ID, insurance information, and any necessary forms to your COVID-19 testing appointment.</template>
+    </category>
+    <category>
+        <pattern>CAN I GET A FLU SHOT AND COVID-19 VACCINE TOGETHER</pattern>
+        <template>Yes, it is generally safe to receive both vaccines together. Please consult your doctor for personalized advice.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SYMPTOMS OF LONG COVID</pattern>
+        <template>Symptoms of long COVID can include fatigue, shortness of breath, brain fog, and more. Please consult a healthcare provider for an evaluation.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I PROTECT MYSELF FROM COVID-19</pattern>
+        <template>You can protect yourself by getting vaccinated, wearing masks, practicing social distancing, and following hygiene protocols.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL DOING TO PREVENT THE SPREAD OF COVID-19</pattern>
+        <template>Our hospital has implemented strict protocols, including regular sanitization, PPE for staff, and separate areas for COVID-19 patients.</template>
+    </category>
+
+    <!-- Specialized Services -->
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN CARDIOLOGY</pattern>
+        <template>Our cardiology department offers services such as heart disease treatment, cardiac surgery, and preventive cardiology.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN ORTHOPEDICS</pattern>
+        <template>Our orthopedics department provides services including joint replacement, fracture treatment, and sports medicine.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN NEUROLOGY</pattern>
+        <template>Our neurology department offers treatment for conditions like stroke, epilepsy, and multiple sclerosis.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN ONCOLOGY</pattern>
+        <template>Our oncology department provides comprehensive cancer care, including chemotherapy, radiation therapy, and surgical oncology.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN GASTROENTEROLOGY</pattern>
+        <template>Our gastroenterology department offers services for digestive system issues, including endoscopy and colonoscopy.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN DERMATOLOGY</pattern>
+        <template>Our dermatology department provides treatment for skin conditions, cosmetic procedures, and skin cancer screening.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN PULMONOLOGY</pattern>
+        <template>Our pulmonology department treats respiratory conditions such as asthma, COPD, and lung infections.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN ENDOCRINOLOGY</pattern>
+        <template>Our endocrinology department provides care for diabetes, thyroid disorders, and other hormonal imbalances.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN RHEUMATOLOGY</pattern>
+        <template>Our rheumatology department treats autoimmune diseases, arthritis, and other musculoskeletal disorders.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES OFFERED IN UROLOGY</pattern>
+        <template>Our urology department offers treatment for urinary tract issues, kidney stones, and prostate problems.</template>
+    </category>
+
+    <!-- Health and Wellness -->
+    <category>
+        <pattern>WHAT ARE SOME TIPS FOR A HEALTHY LIFESTYLE</pattern>
+        <template>Tips for a healthy lifestyle include eating a balanced diet, exercising regularly, getting enough sleep, and managing stress.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I IMPROVE MY DIET</pattern>
+        <template>Improving your diet can include eating more fruits and vegetables, reducing sugar and salt intake, and drinking plenty of water.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE BENEFITS OF REGULAR EXERCISE</pattern>
+        <template>Regular exercise can improve cardiovascular health, strengthen muscles, boost mental health, and aid in weight management.</template>
+    </category>
+    <category>
+        <pattern>HOW MUCH SLEEP DO I NEED</pattern>
+        <template>Adults typically need 7-9 hours of sleep per night. Children and teenagers require more.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I MANAGE STRESS</pattern>
+        <template>Stress management techniques include regular exercise, mindfulness meditation, proper sleep, and seeking social support.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SYMPTOMS OF DEPRESSION</pattern>
+        <template>Symptoms of depression can include persistent sadness, loss of interest in activities, changes in appetite or sleep, and difficulty concentrating.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I QUIT SMOKING</pattern>
+        <template>Quitting smoking can be aided by nicotine replacement therapy, prescription medications, support groups, and counseling.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SIGNS OF A HEALTHY HEART</pattern>
+        <template>Signs of a healthy heart include normal blood pressure, regular exercise, balanced cholesterol levels, and a healthy diet.</template>
+    </category>
+    <category>
+        <pattern>WHAT VACCINATIONS DO I NEED</pattern>
+        <template>Vaccinations needed vary by age, health condition, and travel plans. Common ones include flu, tetanus, and MMR vaccines.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I PREVENT COMMON COLD AND FLU</pattern>
+        <template>You can prevent cold and flu by washing hands regularly, avoiding close contact with sick individuals, and getting vaccinated.</template>
+    </category>
+
+    <!-- Technology and Innovations -->
+    <category>
+        <pattern>WHAT TECHNOLOGIES ARE USED IN SURGERIES</pattern>
+        <template>Technologies used in surgeries include minimally invasive techniques, robotic surgery, and advanced imaging systems.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE BENEFITS OF TELEMEDICINE</pattern>
+        <template>Telemedicine offers benefits such as convenient access to care, reduced travel time, and increased availability of specialists.</template>
+    </category>
+    <category>
+        <pattern>HOW IS ARTIFICIAL INTELLIGENCE USED IN HEALTHCARE</pattern>
+        <template>AI is used in healthcare for predictive analytics, personalized treatment plans, medical imaging analysis, and more.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ROLE OF ELECTRONIC HEALTH RECORDS</pattern>
+        <template>Electronic health records improve patient care by providing accurate, up-to-date, and complete information about patients at the point of care.</template>
+    </category>
+    <category>
+        <pattern>HOW IS VIRTUAL REALITY USED IN MEDICINE</pattern>
+        <template>Virtual reality is used in medicine for surgical training, patient rehabilitation, and pain management.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE ADVANCES IN CANCER TREATMENT</pattern>
+        <template>Advances in cancer treatment include targeted therapies, immunotherapy, and advancements in early detection methods.</template>
+    </category>
+    <category>
+        <pattern>HOW ARE 3D PRINTING TECHNOLOGIES USED IN HEALTHCARE</pattern>
+        <template>3D printing is used to create custom prosthetics, implants, and even bioprinted tissues for medical research.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE FUTURE OF GENOMIC MEDICINE</pattern>
+        <template>The future of genomic medicine includes advancements in personalized treatments, precision diagnostics, and gene therapy.</template>
+    </category>
+    <category>
+        <pattern>HOW IS BIG DATA USED IN HEALTHCARE</pattern>
+        <template>Big data is used in healthcare to analyze patient outcomes, optimize treatment plans, and improve public health initiatives.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ROLE OF WEARABLE TECHNOLOGY IN HEALTHCARE</pattern>
+        <template>Wearable technology monitors vital signs, tracks physical activity, and provides data for preventive healthcare.</template>
+    </category>
+    <category>
+        <pattern>HOW DOES ROBOTIC SURGERY WORK</pattern>
+        <template>Robotic surgery uses robotic systems to assist surgeons in performing precise and minimally invasive procedures.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE BENEFITS OF CLOUD COMPUTING IN HEALTHCARE</pattern>
+        <template>Cloud computing offers benefits such as data storage, remote access to medical records, and improved collaboration among healthcare providers.</template>
+    </category>
+    <category>
+        <pattern>HOW ARE MOBILE HEALTH APPS USED</pattern>
+        <template>Mobile health apps are used for monitoring health conditions, managing medications, and providing health education and reminders.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ROLE OF TELEPHARMACY</pattern>
+        <template>Telepharmacy provides pharmaceutical care through remote consultations, improving access to medication management and counseling.</template>
+    </category>
+    <category>
+        <pattern>HOW IS 3D IMAGING USED IN DIAGNOSTICS</pattern>
+        <template>3D imaging provides detailed views of internal structures, enhancing diagnostic accuracy and surgical planning.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE LATEST TRENDS IN HEALTHCARE TECHNOLOGY</pattern>
+        <template>Latest trends include AI-driven diagnostics, personalized medicine, wearable health devices, and digital therapeutics.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE IMPACT OF AI ON MEDICAL RESEARCH</pattern>
+        <template>AI accelerates medical research by analyzing large datasets, identifying patterns, and aiding in the discovery of new treatments.</template>
+    </category>
+
+    <!-- Financial and Administrative -->
+    <category>
+        <pattern>HOW DO I PAY MY MEDICAL BILL</pattern>
+        <template>You can pay your medical bill online through our website, by mail, or in person at the hospital's billing office.</template>
+    </category>
+    <category>
+        <pattern>WHAT INSURANCE PLANS ARE ACCEPTED</pattern>
+        <template>We accept a variety of insurance plans. Please contact our billing department for specific details.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I APPLY FOR FINANCIAL ASSISTANCE</pattern>
+        <template>You can apply for financial assistance by contacting our financial aid office and providing necessary documentation of your financial situation.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE REFUND POLICY FOR OVERPAID BILLS</pattern>
+        <template>Refunds for overpaid bills are processed once the billing office verifies the payment. Please contact our billing office for more information.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I SET UP A PAYMENT PLAN</pattern>
+        <template>You can set up a payment plan by contacting our billing department to discuss options and terms based on your financial situation.</template>
+    </category>
+    <category>
+        <pattern>WHAT DOCUMENTS ARE NEEDED FOR INSURANCE VERIFICATION</pattern>
+        <template>Documents typically needed include your insurance card, ID, and any relevant medical records. Please check with our billing department for specifics.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I UPDATE MY INSURANCE INFORMATION</pattern>
+        <template>You can update your insurance information by contacting our billing department or through our patient portal.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S POLICIES ON REFUNDS</pattern>
+        <template>Refund policies vary. Please contact our billing office for details on how refunds are processed and what conditions apply.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I GET A COPY OF MY BILL</pattern>
+        <template>You can request a copy of your bill by contacting our billing department or accessing it through our patient portal.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY PAYMENT ASSISTANCE PROGRAMS</pattern>
+        <template>Yes, we offer various payment assistance programs. Please contact our financial aid office for more information.</template>
+    </category>
+
+    <!-- General Information -->
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S HOURS OF OPERATION</pattern>
+        <template>Our hospital is open 24/7. For specific department hours, please check our website or contact the hospital directly.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I CONTACT THE HOSPITAL</pattern>
+        <template>You can contact the hospital by calling our main number or through our website's contact form.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL'S ADDRESS</pattern>
+        <template>Our hospital is located at [Hospital Address]. Please visit our website for a map and directions.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE PARKING FACILITIES AVAILABLE</pattern>
+        <template>Yes, we provide parking facilities for patients and visitors. Please follow signs for parking and check our website for details.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE TRANSPORTATION OPTIONS TO THE HOSPITAL</pattern>
+        <template>Transportation options include public transit, taxis, and ride-sharing services. We also offer shuttle services in certain areas.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL'S POLICY ON CELL PHONE USAGE</pattern>
+        <template>Cell phone usage is generally allowed in designated areas. Please follow any specific restrictions or guidelines provided by hospital staff.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I VOLUNTEER AT THE HOSPITAL</pattern>
+        <template>You can apply to volunteer by contacting our volunteer services department or filling out an application on our website.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY JOB OPENINGS AT THE HOSPITAL</pattern>
+        <template>Current job openings can be found on our careers page. Please visit our website for more information and to apply.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I PROVIDE A COMPLIMENT OR COMPLAINT</pattern>
+        <template>You can provide a compliment or complaint by contacting our patient relations department or submitting feedback through our website.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S SAFETY PROCEDURES</pattern>
+        <template>Our safety procedures include regular staff training, emergency preparedness plans, and adherence to health and safety regulations.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I GET IN TOUCH WITH A SPECIFIC DEPARTMENT</pattern>
+        <template>You can contact specific departments by calling our main number and asking to be connected to the desired department.</template>
+    </category>
+
+    <!-- Emergency Information -->
+    <category>
+        <pattern>WHAT SHOULD I DO IN CASE OF A MEDICAL EMERGENCY</pattern>
+        <template>In case of a medical emergency, call 911 or go to the nearest emergency room immediately.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I GET EMERGENCY MEDICAL SERVICES</pattern>
+        <template>For emergency medical services, call 911 or visit our emergency department. We offer immediate care for urgent situations.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE EMERGENCY ROOM WAIT TIME</pattern>
+        <template>Emergency room wait times vary depending on the severity of cases. For current wait times, please contact our emergency department.</template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I BRING TO THE EMERGENCY ROOM</pattern>
+        <template>Bring identification, insurance information, and any current medications to the emergency room.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE EMERGENCY PROCEDURE FOR MINOR INJURIES</pattern>
+        <template>For minor injuries, you may be directed to our urgent care or walk-in clinic. Please visit our emergency department for immediate assistance.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I REPORT AN EMERGENCY SITUATION</pattern>
+        <template>Report an emergency situation by calling 911 or notifying hospital staff immediately.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE EMERGENCY SERVICES FOR CHILDREN</pattern>
+        <template>Yes, we have specialized pediatric emergency services available for children. Please visit our pediatric emergency department.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I ACCESS EMERGENCY MEDICAL RECORDS</pattern>
+        <template>Emergency medical records can be accessed by contacting our medical records department or through the patient portal if you are a registered patient.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE HOSPITAL'S PROTOCOLS FOR DISASTER MANAGEMENT</pattern>
+        <template>Our hospital has disaster management protocols that include evacuation plans, emergency response teams, and coordination with local agencies.</template>
+    </category>
+    <category>
+        <pattern>HOW CAN I LEARN ABOUT FIRST AID TRAINING</pattern>
+        <template>First aid training programs are offered through community organizations and sometimes through the hospital. Check our website for available courses.</template>
+    </category>
+</aiml>
+
+ 
